@@ -3,7 +3,8 @@
 @keyframes changeColorGreen {
     0% {
         color: $cream;
-    }
+	}
+
     50% {
         color: $lightgreen;
         transform: scale(1.05);
@@ -15,7 +16,8 @@
 @keyframes changeColorRed {
     0% {
         color: $cream;
-    }
+	}
+	
     50% {
         color: $red;
         transform: scale(1.05);
