@@ -71,9 +71,9 @@ let renderGame = () => {
     }
 
     else if (sum > 21) {
-        cash -= 5
-        isAlive = false
-        messageBox.textContent = `You've lost! You had too many points. Try again in the next round.`
+        cash -= 5;
+        isAlive = false;
+        messageBox.textContent = `You've lost! You had too many points. Try again in the next round.`;
         cashBox.textContent = `Cash: $${cash}`;
         cashBox.classList.toggle('game-container__cash--red');
     }
@@ -120,7 +120,7 @@ let openRules = () => {
 
     if (openRulesBoolean) rulesButton.textContent = 'Close rules'
     else rulesButton.textContent = 'Open rules'
-    openRulesBoolean = !openRulesBoolean
+    openRulesBoolean = !openRulesBoolean;
 }
 
 
