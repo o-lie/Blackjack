@@ -34,7 +34,7 @@ let startGame = () => {
     nextRound();
 }
 
-function nextRound() {
+let nextRound = () => {
     if (!isAlive && cash != 0) {
         isAlive = true;
         hasBlackjack = false;
