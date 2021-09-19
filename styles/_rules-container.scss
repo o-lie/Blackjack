@@ -1,16 +1,19 @@
 .rules-container {
     background-color: $dark;
+    width: 100%;
     display: none;
     text-align: center;
     color: $cream;
+    padding-top: 10px;
 
     &__title {
         font-size: 50px;
+        background-color: indigo;
     }
 
     &__text {
         font-size: 40px;
-
+        background-color: darkcyan;
         &--yellow {
             color: $yellow;
         }
