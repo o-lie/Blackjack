@@ -25,7 +25,7 @@ function randomCard() {
 }
 
 
-function startGame() {
+let startGame = () => {
     gameBox.classList.toggle('game-container--show');
     newCardButton.classList.toggle('buttons-container__button--show');
     resetGameButton.classList.toggle('buttons-container__button--show');
