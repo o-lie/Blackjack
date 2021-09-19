@@ -96,7 +96,7 @@ let newCard = () => {
     }
 }
 
-function resetGame() {
+let resetGame = () => {
     sum = 0;
     cash = 20;
     cards = [];
