@@ -1,27 +1,27 @@
 @import "variables";
 
 @keyframes changeColorGreen {
-    0% {
-        color: $cream;
+	0% {
+		color: $cream;
 	}
 
-    50% {
-        color: $lightgreen;
-        transform: scale(1.05);
-        transition: 1s ease-in-out;
-    }
+	50% {
+		color: $lightgreen;
+		transform: scale(1.05);
+		transition: 1s ease-in-out;
+	}
 
 }
 
 @keyframes changeColorRed {
-    0% {
-        color: $cream;
+	0% {
+		color: $cream;
 	}
 	
-    50% {
-        color: $red;
-        transform: scale(1.05);
-        transition: 1s ease-in-out;
-    }
+	50% {
+		color: $red;
+		transform: scale(1.05);
+		transition: 1s ease-in-out;
+	}
 
 }
