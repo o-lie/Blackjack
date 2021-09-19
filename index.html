@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-title">
+        Blackjack
+    </div>
+    <div class="game-message">
+        Let's start the game!
+    </div>
+
+    <div class="game-container">
+        <div class="game-container__cards" id="cards">
+            Cards:
+        </div>
+        <div class="game-container__sum">
+            Sum: 0
+        </div>
+        <div class="game-container__cash">
+            cash: $0
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <button class="buttons-container__button buttons-container__button--start-game buttons-container__button--show">
+            START GAME
+        </button>
+        <button class="buttons-container__button buttons-container__button--next-round">
+            NEXT ROUND
+        </button>
+        <button class="buttons-container__button buttons-container__button--new-card">
+            NEW CARD
+        </button>
+        <button class="buttons-container__button buttons-container__button--reset-game">
+            RESET GAME
+        </button>
+        <button class="buttons-container__button buttons-container__button--open-rules">
+            OPEN RULES
+        </button>
+    </div>
+    <div class="rules-container">
+        <div class="rules-container__title">
+            Rules
+        </div>
+        <div class="rules-container__text">
+            <p>When you start the game you get $20.<br>
+                When you get a
+                <span class="rules-container__text rules-container__text--yellow">Blackjack</span>
+                you earn $10. <br>
+                Every time you lose you give back $5.
+            </p>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

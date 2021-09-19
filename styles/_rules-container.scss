@@ -1,0 +1,22 @@
+.rules-container {
+    background-color: $dark;
+    display: none;
+    text-align: center;
+    color: $cream;
+
+    &__title {
+        font-size: 50px;
+    }
+
+    &__text {
+        font-size: 40px;
+
+        &--yellow {
+            color: $yellow;
+        }
+    }
+
+    &--show {
+        display: inline-block;
+    }
+}

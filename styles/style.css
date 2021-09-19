@@ -1,0 +1,203 @@
+@-webkit-keyframes changeColorGreen {
+  0% {
+    color: #f4fff8;
+  }
+  50% {
+    color: #92ef80;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+}
+
+@keyframes changeColorGreen {
+  0% {
+    color: #f4fff8;
+  }
+  50% {
+    color: #92ef80;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+}
+
+@-webkit-keyframes changeColorRed {
+  0% {
+    color: #f4fff8;
+  }
+  50% {
+    color: #a30000;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+}
+
+@keyframes changeColorRed {
+  0% {
+    color: #f4fff8;
+  }
+  50% {
+    color: #a30000;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+}
+
+.game-container {
+  width: 100%;
+  text-align: center;
+  background-color: #3a4f41;
+  color: #f4fff8;
+  display: none;
+}
+
+.game-container__cards {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.game-container__sum {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.game-container__cash {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.game-container__cash--green {
+  -webkit-animation: changeColorGreen 1s;
+          animation: changeColorGreen 1s;
+}
+
+.game-container__cash--red {
+  -webkit-animation: changeColorRed 800ms;
+          animation: changeColorRed 800ms;
+}
+
+.game-container--show {
+  display: block;
+}
+
+.rules-container {
+  background-color: #131515;
+  display: none;
+  text-align: center;
+  color: #f4fff8;
+}
+
+.rules-container__title {
+  font-size: 50px;
+}
+
+.rules-container__text {
+  font-size: 40px;
+}
+
+.rules-container__text--yellow {
+  color: #e09f3e;
+}
+
+.rules-container--show {
+  display: inline-block;
+}
+
+.buttons-container__button {
+  border: none;
+  color: #f4fff8;
+  background-color: #8baaad;
+  font-family: "Bebas Neue", cursive;
+  font-size: 35px;
+  width: 150px;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buttons-container__button:hover {
+  -webkit-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.buttons-container__button--start-game {
+  display: none;
+}
+
+.buttons-container__button--start-game:hover {
+  background-color: #e09f3e;
+}
+
+.buttons-container__button--next-round {
+  display: none;
+}
+
+.buttons-container__button--next-round:hover {
+  background-color: #576066;
+}
+
+.buttons-container__button--new-card {
+  display: none;
+}
+
+.buttons-container__button--new-card:hover {
+  background-color: #004777;
+}
+
+.buttons-container__button--reset-game {
+  display: none;
+}
+
+.buttons-container__button--reset-game:hover {
+  background-color: #a30000;
+}
+
+.buttons-container__button--open-rules:hover {
+  background-color: #131515;
+}
+
+.buttons-container__button--show {
+  display: inline-block;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  background-color: #2b3b30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .game-title {
+  padding-top: 30px;
+  margin-bottom: 10px;
+  color: #e09f3e;
+  font-size: 80px;
+}
+
+body .game-message {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #f4fff8;
+}
+/*# sourceMappingURL=style.css.map */

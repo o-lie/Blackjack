@@ -1,0 +1,55 @@
+.buttons-container {
+    &__button {
+        border: none;
+        color: $cream;
+        background-color: $blue;
+        font-family: "Bebas Neue", cursive;
+        font-size: 35px;
+        width: 150px;
+        height: 60px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+
+        &:hover {
+            transition: 100ms ease-in-out;
+            transform: scale(1.03);
+        }
+
+        &--start-game {
+            display: none;
+            &:hover {
+                background-color: $yellow;
+            }
+        }
+        &--next-round {
+            display: none;
+            &:hover {
+                background-color: $grey;
+            }
+        }
+        &--new-card {
+            display: none;
+            &:hover {
+                background-color: $darkblue;
+            }
+        }
+
+        &--reset-game {
+            display: none;
+            &:hover {
+                background-color: $red;
+            }
+        }
+
+        &--open-rules {
+            &:hover {
+                background-color: $dark;
+            }
+        }
+
+        &--show {
+            display: inline-block;
+        }
+    }
+}
