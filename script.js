@@ -47,7 +47,7 @@ let nextRound = () => {
         renderGame();
     }
 }
-function renderGame() {
+let renderGame = () => {
 
     // CONTENT
     cardsBox.textContent = "Cards: ";
