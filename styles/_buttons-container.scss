@@ -51,10 +51,8 @@
 			}
 		}
 
-		&--open-rules {
-			&:hover {
-				background-color: $dark;
-			}
+		&--open-rules:hover {
+			background-color: $dark;
 		}
 
 		&--show {
