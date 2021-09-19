@@ -22,26 +22,30 @@
         }
 
         &--start-game {
-            display: none;
+			display: none;
+			
             &:hover {
                 background-color: $yellow;
             }
         }
         &--next-round {
-            display: none;
+			display: none;
+			
             &:hover {
                 background-color: $grey;
             }
         }
         &--new-card {
-            display: none;
+			display: none;
+			
             &:hover {
                 background-color: $darkblue;
             }
         }
 
         &--reset-game {
-            display: none;
+			display: none;
+			
             &:hover {
                 background-color: $red;
             }
