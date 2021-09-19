@@ -11,17 +11,17 @@
 
     &__cards {
         font-size: 50px;
-        // margin-bottom: 5px;
+        margin-bottom: 5px;
     }
 
     &__sum {
         font-size: 50px;
-        // margin-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     &__cash {
         font-size: 50px;
-        // margin-bottom: 10px;
+        margin-bottom: 10px;
 
         &--green {
             animation: changeColorGreen 1s;
@@ -34,5 +34,5 @@
 
     &--show {
         display: flex;
-    }    
+    }
 }

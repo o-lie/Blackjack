@@ -1,25 +1,26 @@
 .rules-container {
-    background-color: $dark;
-    width: 100%;
-    display: none;
-    text-align: center;
-    color: $cream;
-    padding-top: 10px;
+	background-color: $dark;
+	width: 100%;
+	display: none;
+	text-align: center;
+	color: $cream;
+	padding-top: 10px;
 
-    &__title {
-        font-size: 50px;
-        background-color: indigo;
-    }
+	&__title {
+		font-size: 50px;
+		background-color: indigo;
+	}
 
-    &__text {
-        font-size: 40px;
-        background-color: darkcyan;
-        &--yellow {
-            color: $yellow;
-        }
-    }
+	&__text {
+		font-size: 40px;
+		background-color: darkcyan;
+		
+		&--yellow {
+			color: $yellow;
+		}
+	}
 
-    &--show {
-        display: inline-block;
-    }
+	&--show {
+		display: inline-block;
+	}
 }
