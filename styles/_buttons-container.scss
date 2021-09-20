@@ -4,7 +4,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+	background-color: darkcyan;
 	&__button {
 		border: none;
 		color: $cream;
@@ -23,21 +23,21 @@
 
 		&--start-game {
 			display: none;
-			
+
 			&:hover {
 				background-color: $yellow;
 			}
 		}
 		&--next-round {
 			display: none;
-			
+
 			&:hover {
 				background-color: $grey;
 			}
 		}
 		&--new-card {
 			display: none;
-			
+
 			&:hover {
 				background-color: $darkblue;
 			}
@@ -45,7 +45,7 @@
 
 		&--reset-game {
 			display: none;
-			
+
 			&:hover {
 				background-color: $red;
 			}

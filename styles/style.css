@@ -70,14 +70,17 @@
 
 .game-container__cards {
   font-size: 50px;
+  margin-bottom: 5px;
 }
 
 .game-container__sum {
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .game-container__cash {
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .game-container__cash--green {
@@ -135,6 +138,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: darkcyan;
 }
 
 .buttons-container__button {
@@ -196,7 +200,14 @@
   display: inline-block;
 }
 
+@media (max-width: 800px) {
+  body .buttons-container {
+    width: 400px;
+  }
+}
+
 body {
+  min-width: 400px;
   font-family: "Bebas Neue", cursive;
   background-color: #2b3b30;
   display: -webkit-box;
@@ -215,6 +226,7 @@ body {
 }
 
 body .game-title {
+  text-align: center;
   padding-top: 30px;
   margin-bottom: 10px;
   color: #e09f3e;
@@ -222,6 +234,7 @@ body .game-title {
 }
 
 body .game-message {
+  text-align: center;
   font-size: 50px;
   margin-bottom: 10px;
   color: #f4fff8;

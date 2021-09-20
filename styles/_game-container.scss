@@ -1,38 +1,38 @@
 .game-container {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    background-color: $green;
-    color: $cream;
-    display: none;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	background-color: $green;
+	color: $cream;
+	display: none;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
 
-    &__cards {
-        font-size: 50px;
-        margin-bottom: 5px;
-    }
+	&__cards {
+		font-size: 50px;
+		margin-bottom: 5px;
+	}
 
-    &__sum {
-        font-size: 50px;
-        margin-bottom: 10px;
-    }
+	&__sum {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
 
-    &__cash {
-        font-size: 50px;
-        margin-bottom: 10px;
+	&__cash {
+		font-size: 50px;
+		margin-bottom: 10px;
 
-        &--green {
-            animation: changeColorGreen 1s;
-        }
+		&--green {
+			animation: changeColorGreen 1s;
+		}
 
-        &--red {
-            animation: changeColorRed 800ms;
-        }
-    }
+		&--red {
+			animation: changeColorRed 800ms;
+		}
+	}
 
-    &--show {
-        display: flex;
-    }
+	&--show {
+		display: flex;
+	}
 }
