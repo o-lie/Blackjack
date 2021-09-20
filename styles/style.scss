@@ -6,26 +6,29 @@
 @import "media";
 
 body {
-	min-width: 400px;
 	font-family: "Bebas Neue", cursive;
 	background-color: $darkgreen;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 
-	.game-title {
-		text-align: center;
-		padding-top: 30px;
-		margin-bottom: 10px;
-		color: $yellow;
-		font-size: 80px;
-	}
+	.page-wrapper {
+		min-width: 400px;
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.game-title {
+			text-align: center;
+			padding-top: 30px;
+			margin-bottom: 10px;
+			color: $yellow;
+			font-size: 80px;
+		}
 
-	.game-message {
-		text-align: center;
-		font-size: 50px;
-		margin-bottom: 10px;
-		color: $cream;
+		.game-message {
+			text-align: center;
+			font-size: 50px;
+			margin-bottom: 10px;
+			color: $cream;
+		}
 	}
 }

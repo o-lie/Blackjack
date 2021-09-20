@@ -4,7 +4,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: darkcyan;
+
+	&__wrapper {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
 	&__button {
 		border: none;
 		color: $cream;
